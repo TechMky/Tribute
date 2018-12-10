@@ -8,13 +8,14 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
 <body class="font-g">
   <!--main content section-->
-  <div class="content">
+  <div id="main" class="content">
         <div class="container-fluid">
-            <div class="jumbotron bg-main top-buffer2">
-            <h1 class="text-center">Tribute to Narendra Modi <br><small><em>-the prime minister of India.</em></small></h1>
+            <div id="jumbo" class="jumbotron bg-main top-buffer2">
+            <h1 id="tribute-info" class="text-center">Tribute to Narendra Modi <br><small><em>-the prime minister of India.</em></small></h1>
             <hr class="hr-style">
             <blockquote>
                 <p>"India’s reformer-in-chief, from poverty to Prime Minister."</p>
@@ -24,7 +25,7 @@
             <section class="bg-main">
                 <div class="padding-central">
                     <h1>Introduction:</h1>
-                <p><strong>Narendra Damodardas Modi</strong>, born 17th September 1950 is an Indian politician who is 
+                <p><strong id="title">Narendra Damodardas Modi</strong>, born 17th September 1950 is an Indian politician who is 
                 the 14th and current Prime Minister of India, in office since May 2014. He was the Chief Minister
                  of Gujarat from 2001 to 2014, and is the Member of Parliament for Varanasi. Modi, a member of the 
                  Bharatiya Janata Party (BJP), is a Hindu nationalist and member of the right-wing Rashtriya 
@@ -100,7 +101,7 @@
                     <div class="col-md-3 col-sm-3">
                          <div class="thumbnail bg-main effect7">
                              <div class="text-center">
-                                <a href="https://www.narendramodi.in" target="_blank"><i class="fa fa-home fa-5x" aria-hidden="true"></i></a>   
+                                <a id="tribute-link" href="https://www.narendramodi.in" target="_blank"><i class="fa fa-home fa-5x" aria-hidden="true"></i></a>   
                             </div>
                              <div class="caption text-center">
                                  <h4>Narendra Modi's homepage</h4>
@@ -140,7 +141,7 @@
   <!--page sidebar-->
   <aside class="sidebar">
       <div class="container-fluid blue-border">
-          <a href="http://www.narendramodi.in" target="_blank"><img class="img-responsive center-block img-circle top-buffer7 effect7" src="https://hdp12g.bn1304.livefilestore.com/y4mahWwh-cRq_lFUN85FgX19LuTOo0XZ3ZOAhhiTgE7VhaaqDX18VYy4R0i-1lc8DKCuJc-hLXPBhM3GZFGAk3XFNmAOK71PLitqzPyCoU5UxhCSwPiwOXiBEwOoTbBSOBo8xsdRBD8zX3ea8uedzsLRH08qMdb1RJFnLvwS8R1YFeGyDaubkzRYUMOwvwWdCrxVGForORt5OKYiOXJbeSU8Q?width=554&height=547&cropmode=none" alt="Narendra Modi image"></a>
+          <div id="img-div"><a href="http://www.narendramodi.in" target="_blank"><img id="image" class="img-responsive center-block img-circle top-buffer7 effect7" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/PM_Modi_2015.jpg/220px-PM_Modi_2015.jpg" alt="Narendra Modi image"><span id="img-caption" class="hide">Narendra Modi</span></a></div>
           <div class="text-center">              
             <h1><a href="http://www.narendramodi.in" target="_blank"><strong>Narendra Modi</strong></a></h1>
             <h4>14th Prime Minister of India</h4>

@@ -39,6 +39,7 @@
 background:url(http://supernovathemes.com/wp-content/themes/supernovathemes/images/bg/b30.png);
 border-radius: 6px;
 margin-bottom: 30px;
+background-color: #5c2018;
 }
  .sidebar {
     position:fixed;
@@ -46,19 +47,23 @@ margin-bottom: 30px;
    width:25%; 
    top:0;
    left:0;
-   background:url(http://supernovathemes.com/wp-content/themes/supernovathemes/images/bg/b30.png);
-   border: 0.3em solid #328CC1;
+   background: #bc4639;
+   border: 0.3em solid #5c2018;
+   color: #f3e0dc;
  }
  .content {
      margin-left: 25%;
      height: 100%;
      width: auto;
      position: relative;
-     background-image: url(http://supernovathemes.com/wp-content/themes/supernovathemes/images/bg/b50.png);
+     background-color: #f3e0dc;
      overflow: auto;
      z-index: 1;
+     color: #f3e0dc;
  }
- 
+ #jumbo{
+     background-color: #5c2018
+ }
  .top-buffer2{
      margin-top: 1.2em;
  }
@@ -88,6 +93,9 @@ margin-bottom: 30px;
     font-size: 18px;
 }
 
+.fa{
+    color: #5c2018;
+}
 .effect7
 {
   	position:relative;
